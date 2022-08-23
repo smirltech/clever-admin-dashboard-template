@@ -1,4 +1,3 @@
-
 import 'package:clever_dashboard_template/src/screens/home/components/menu/menu_components/menu_tile.dart';
 import 'package:clever_dashboard_template/src/screens/home/components/menu/menu_components/menu_tile_switch.dart';
 import 'package:clever_dashboard_template/utils/theming.dart';
@@ -7,9 +6,6 @@ import 'package:flutter/material.dart';
 import 'package:fluttericon/font_awesome5_icons.dart';
 import 'package:fluttericon/font_awesome_icons.dart';
 import 'package:fluttericon/typicons_icons.dart';
-
-
-
 
 class Menu extends StatelessWidget {
   const Menu({
@@ -31,8 +27,7 @@ class Menu extends StatelessWidget {
                 Container(
                   padding: const EdgeInsets.all(4),
                   decoration: BoxDecoration(
-                      color: purple,
-                      borderRadius: BorderRadius.circular(10)),
+                      color: purple, borderRadius: BorderRadius.circular(10)),
                   child: const Icon(
                     Typicons.flash,
                     color: white,
@@ -44,9 +39,7 @@ class Menu extends StatelessWidget {
                 Text(
                   "clever",
                   style: TextStyle(
-                      fontSize: 24,
-                      fontWeight: FontWeight.bold,
-                      color: purple),
+                      fontSize: 24, fontWeight: FontWeight.bold, color: purple),
                 )
               ],
             ),
@@ -62,8 +55,7 @@ class Menu extends StatelessWidget {
             ),
             const MenuTile(title: "Tasks", icon: FontAwesome.tasks),
             const MenuTile(title: "File", icon: FontAwesome5.file_alt),
-            const MenuTile(
-                title: "Integration", icon: Icons.filter_b_and_w),
+            const MenuTile(title: "Integration", icon: Icons.filter_b_and_w),
             const MenuTile(title: "User", icon: FontAwesome5.users),
             const MenuTile(
               title: "Settings",
@@ -99,8 +91,7 @@ class Menu extends StatelessWidget {
             ),
             const Spacer(),
             Container(
-              padding:
-                  const EdgeInsets.symmetric(horizontal: 8, vertical: 8),
+              padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 8),
               decoration: BoxDecoration(
                   color: blue, borderRadius: BorderRadius.circular(10)),
               child: Row(
@@ -116,9 +107,9 @@ class Menu extends StatelessWidget {
                   ),
                   Expanded(
                     child: Text(
-                      "Tahila Mooney",
-                      style: TextStyle(
-                          fontWeight: FontWeight.bold, color: white),
+                      "Tahlia Mooney",
+                      style:
+                          TextStyle(fontWeight: FontWeight.bold, color: white),
                     ),
                   ),
                   Icon(
